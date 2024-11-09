@@ -15,7 +15,7 @@ Para usar o projeto, é necessário possuir o gcc ou g++
 git clone https://github.com/LuizGDC7/arvoreBuscaBinaria.git
 
 # Entre no diretório do projeto
-cd projeto
+cd arvoreBuscaBinaria
 
 # Instale as dependências (se houver)
 make
