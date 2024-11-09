@@ -196,6 +196,7 @@ int bt_menu(btree *arvore){
     int opcao, valor;
     node *temporario = NULL;
     printf("\n\nEscolha uma opcao:\n\n1-Inserir node\n2-Deletar node\n3-Procurar menor node\n4-Procurar maior node\n5-Procurar existencia de um node com uma chave\n6-Mostrar o sucessor de um node\n7-Mostrar o predecessor de um node\n8-Walking sort\n9-Sair\n\n>> ");
+    
     do{
         scanf("%d%*c", &opcao);
     } while (opcao < 1 || opcao > 9);
